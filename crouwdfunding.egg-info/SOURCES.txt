@@ -1,0 +1,6 @@
+README.md
+setup.py
+crouwdfunding.egg-info/PKG-INFO
+crouwdfunding.egg-info/SOURCES.txt
+crouwdfunding.egg-info/dependency_links.txt
+crouwdfunding.egg-info/top_level.txt
