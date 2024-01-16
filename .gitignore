@@ -1,6 +1,5 @@
 #lo que no quieres que se suba en github
-.env
-venv/
-__pycache__/
+
+
 *.py[cod]
 .pytest_cache/

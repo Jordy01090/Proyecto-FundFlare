@@ -1,8 +1,8 @@
 from PyQt6 import uic
 from PyQt6.QtWidgets import QMessageBox
-from src.gui.correo import Correo
+from correo import Correo
 import re
-from src.database.data_user import UsuarioData
+from database.data_user import UsuarioData
 
 from src.model.user import Usuario
 

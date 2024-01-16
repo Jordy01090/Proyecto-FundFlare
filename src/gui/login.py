@@ -1,7 +1,7 @@
 from PyQt6 import uic
 from PyQt6.QtWidgets import QMessageBox
-from src.gui.registrarLogin import RegistrationWindow
-from src.gui.main import MainWindow
+from registrarLogin import RegistrationWindow
+from main import MainWindow
 from src.database.data_user import UsuarioData
 
 from src.model.user import Usuario
