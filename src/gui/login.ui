@@ -118,7 +118,7 @@ color: rgb(255, 255, 255);
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>jordy</string>
    </property>
    <property name="placeholderText">
     <string>Ingrese su usuario</string>
@@ -135,6 +135,9 @@ color: rgb(255, 255, 255);
    </property>
    <property name="styleSheet">
     <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>jordy2004</string>
    </property>
    <property name="echoMode">
     <enum>QLineEdit::Password</enum>

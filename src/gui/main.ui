@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>814</width>
-    <height>593</height>
+    <height>586</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -27,7 +27,7 @@
     <property name="title">
      <string>Archivo</string>
     </property>
-    <addaction name="btnRegistrar_Emprendedor"/>
+    <addaction name="btnCrear_Proyecto"/>
    </widget>
    <widget class="QMenu" name="menuCreditos">
     <property name="title">
@@ -44,9 +44,15 @@
     <string>Desarrolladores</string>
    </property>
   </action>
-  <action name="btnRegistrar_Emprendedor">
+  <action name="btnCrear_Proyecto">
    <property name="text">
-    <string>Registrar Emprendedor</string>
+    <string>Crear Nuevo Proyecto</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
    </property>
   </action>
  </widget>

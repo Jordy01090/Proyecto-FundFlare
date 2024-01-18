@@ -2,9 +2,9 @@ from PyQt6 import uic
 from PyQt6.QtWidgets import QMessageBox
 from correo import Correo
 import re
-from database.data_user import UsuarioData
+from data_user import UsuarioData
 
-from src.model.user import Usuario
+from user import Usuario
 
 #Clase Login para trabajar en la interfáz de inicio de sesión en la app
 class RegistrationWindow():
@@ -12,7 +12,7 @@ class RegistrationWindow():
     #Constructor que se conecta la interfáz con la aplicación
     def __init__(self):
         
-        self.registro = uic.loadUi("C:/Users/avila/OneDrive/Escritorio/Python_conexion/src/gui/registrarLogin.ui")
+        self.registro = uic.loadUi("C:/Users/avila/OneDrive/Escritorio/Proyecto_Crowdfunding/src/gui/registrarLogin.ui")
         
         #self.initGUI()
         self.registro.lblError.setText("")
