@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>814</width>
-    <height>586</height>
+    <width>822</width>
+    <height>590</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>FundFlare</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(159, 159, 79);</string>
   </property>
   <widget class="QWidget" name="centralwidget"/>
   <widget class="QMenuBar" name="menubar">
@@ -19,7 +22,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>814</width>
+     <width>822</width>
      <height>22</height>
     </rect>
    </property>
@@ -28,6 +31,11 @@
      <string>Archivo</string>
     </property>
     <addaction name="btnCrear_Proyecto"/>
+    <addaction name="btnVer_Proyectos"/>
+    <addaction name="actionCrear_Recompensas"/>
+    <addaction name="actionUsuarios"/>
+    <addaction name="actionGestion_de_Patrocinios"/>
+    <addaction name="actionSoporte"/>
    </widget>
    <widget class="QMenu" name="menuCreditos">
     <property name="title">
@@ -45,6 +53,9 @@
    </property>
   </action>
   <action name="btnCrear_Proyecto">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
    <property name="text">
     <string>Crear Nuevo Proyecto</string>
    </property>
@@ -53,6 +64,46 @@
    </property>
    <property name="shortcutVisibleInContextMenu">
     <bool>true</bool>
+   </property>
+  </action>
+  <action name="btnVer_Proyectos">
+   <property name="text">
+    <string>Ver Proyectos</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionCrear_Recompensas">
+   <property name="text">
+    <string>Crear Recompensas</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionGestion_de_Patrocinios">
+   <property name="text">
+    <string>Gestion de Patrocinios</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionUsuarios">
+   <property name="text">
+    <string>Usuarios</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actionSoporte">
+   <property name="text">
+    <string>Soporte</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
    </property>
   </action>
  </widget>
